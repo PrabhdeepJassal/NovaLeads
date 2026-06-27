@@ -1,0 +1,53 @@
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+*.so
+
+# ── Jupyter Notebooks ──────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Environment / Secrets ──────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── IDE / Editors ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ── Node / Frontend ────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+*.tsbuildinfo
+
+# ── ML Artifacts ────────────────────────────────────────────
+backend/ml/model.pkl
+backend/ml/preprocessor.pkl
+backend/ml/feature_names.pkl
+backend/ml/model.onnx
+backend/ml/training_metrics.json
+backend/ml/data/lead_data.csv
+
+# ── Docker ─────────────────────────────────────────────────
+docker/pgdata/
+
+# ── Logs ────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── OS ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
